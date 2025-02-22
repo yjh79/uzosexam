@@ -3,6 +3,7 @@
 pid_t pid1, pid2, pid3;
 int main()
 {
+	printf("Hello World\n");
     pid1 = fork();
     pid2 = fork();
     pid3 = fork();
